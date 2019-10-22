@@ -38,6 +38,7 @@ output:
     number_sections: false
 bibliography: MyBib.bib
 link-citations: false
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_file = file.path(dirname(inputFile), 'index.html')) })
 ---
 
 ```{r, include=FALSE}
@@ -92,7 +93,7 @@ We thank the authors and participating patients of immunotherapy publications fo
 - He, Zaoke, et al. "Ras Downstream Effector GGCT Alleviates Oncogenic Stress." **iScience** 19 (2019): 256-266.
 - Wang, Shixiang, and Xuesong Liu. "The UCSCXenaTools R package: a toolkit for accessing genomics data from UCSC Xena platform, from cancer multi-omics to single-cell RNA-seq." **The Journal of Open Source Software** 4 (2019).
 - Wang, Shixiang, et al. "The predictive power of tumor mutational burden in lung cancer immunotherapy response is influenced by patients’ sex." **International journal of cancer** (2019).
-- Wang, Shixiang, et al. "APOBEC3B and APOBEC mutational signature as potential predictive markers for immunotherapy response in non-small cell lung cancer." Oncogene 37.29 (2018): 3924.
+- Wang, Shixiang, et al. "APOBEC3B and APOBEC mutational signature as potential predictive markers for immunotherapy response in non-small cell lung cancer." **Oncogene** 37.29 (2018): 3924.
 
 ***
 
